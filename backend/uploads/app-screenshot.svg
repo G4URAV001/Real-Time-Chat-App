@@ -1,0 +1,26 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="500" fill="#F9FAFB" />
+    
+    <!-- Header -->
+    <rect width="800" height="60" fill="white" />
+    <text x="20" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#8B5CF6">ChitChat</text>
+    
+    <!-- Sidebar -->
+    <rect x="0" y="60" width="250" height="440" fill="white" />
+    <line x1="250" y1="60" x2="250" y2="500" stroke="#E5E7EB" stroke-width="1" />
+    
+    <!-- Chat area -->
+    <rect x="250" y="60" width="550" height="440" fill="white" />
+    
+    <!-- App features text -->
+    <text x="400" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937" text-anchor="middle">ChitChat Features</text>
+    
+    <text x="400" y="200" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 Real-time messaging with other users</text>
+    <text x="400" y="230" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 Public and private chat rooms</text>
+    <text x="400" y="260" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 Direct messaging with individual users</text>
+    <text x="400" y="290" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 File and image sharing</text>
+    <text x="400" y="320" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 User status indicators (online, away, offline)</text>
+    <text x="400" y="350" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 Customizable user profiles</text>
+    <text x="400" y="380" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 Typing indicators</text>
+    <text x="400" y="410" font-family="Arial" font-size="16" fill="#4B5563" text-anchor="middle">🔹 Unread message counters</text>
+  </svg>
