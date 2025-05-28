@@ -21,11 +21,6 @@ app.use(cors({
     // Allow requests with no origin (like mobile apps, curl requests)
     if(!origin) return callback(null, true);
     
-    // Allow localhost with any port
-    if(origin.startsWith('http://localhost:') || origin.match(/^https?:\/\/10\.255\.255\.254/)) {
-      return callback(null, true);
-    }
-    
     // For other origins, check against allowed origins
     const allowedOrigins = [process.env.FRONTEND_URL || 'http://localhost:5173'];
     if(allowedOrigins.indexOf(origin) !== -1) {
@@ -64,11 +59,6 @@ const io = socketIo(server, {
     origin: function(origin, callback) {
       // Allow requests with no origin (like mobile apps, curl requests)
       if(!origin) return callback(null, true);
-      
-      // Allow localhost with any port
-      if(origin.startsWith('http://localhost:') || origin.match(/^https?:\/\/10\.255\.255\.254/)) {
-        return callback(null, true);
-      }
       
       // For other origins, check against allowed origins
       const allowedOrigins = [process.env.FRONTEND_URL || 'http://localhost:5173'];
